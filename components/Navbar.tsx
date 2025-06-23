@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { auth, signIn, signOut } from '@/auth'
+import { auth, signIn, signOut } from '@/app/auth'
 
 const Navbar = async () => {
     // Server rendered component, so we can use await auth()
