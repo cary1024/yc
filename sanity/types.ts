@@ -29,7 +29,7 @@ export type Startup = {
   };
   views?: number;
   description?: string;
-  catagory?: string;
+  category?: string;
   image?: string;
   pitch?: string;
 };
@@ -186,7 +186,7 @@ export type STARTUPS_QUERYResult = Array<{
   } | null;
   views: number | null;
   description: string | null;
-  category: null;
+  category: string | null;
   image: string | null;
 }>;
 
